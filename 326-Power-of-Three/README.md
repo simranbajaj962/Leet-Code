@@ -1,4 +1,4 @@
-<h2>231. Power of Two</h2>
+<h2>231. Power of Three</h2>
 <hr>
 <h3>Easy</h3>
 <div>
