@@ -1,3 +1,5 @@
+// Below is the code for two different approaches to solve this problem
+
 // Time Complexity: (n! * n)
 // Space Complexity: O(n) + O(n)
 
