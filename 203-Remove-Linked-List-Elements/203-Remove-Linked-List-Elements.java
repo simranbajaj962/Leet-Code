@@ -48,3 +48,17 @@ class Solution {
         return newHead;
     }
 }
+
+// --------------Using recursion----------------------
+class Solution {
+    public ListNode removeElements(ListNode head, int val) {
+        if (head == null) {
+            return null;
+        }
+        // assume that all other nodes next to head will
+        // be stored as the required result in head.next
+        // by removing the matching value nodes
+        head.next = removeElements(head.next, val);
+        return head.val == val ? head.next : head;
+    }
+}
